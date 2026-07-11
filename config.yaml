@@ -1,0 +1,26 @@
+data:
+  raw_path: "data/raw/german_credit_data.csv"
+  processed_path: "data/processed/processed_data.csv"
+
+model:
+  test_size: 0.2
+  random_state: 42
+  cv_folds: 5
+
+training:
+  models:
+    - logistic_regression
+    - random_forest
+    - xgboost
+
+evaluation:
+  metrics:
+    - accuracy
+    - precision
+    - recall
+    - f1
+    - roc_auc
+
+paths:
+  model_save_path: "models/"
+  logs_path: "logs/"
