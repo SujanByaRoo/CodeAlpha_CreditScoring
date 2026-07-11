@@ -150,33 +150,23 @@ param_grid = {
 
 ```
 CodeAlpha_CreditScoring/
+│
 ├── data/
-│   ├── raw/
-│   │   └── german_credit_data.csv
-│   └── processed/
-│       └── processed_data.csv
+│   └── german_credit_data.csv
+│
 ├── src/
-│   ├── ingest.py        # Data loading and validation
-│   ├── preprocess.py    # Full preprocessing pipeline
-│   ├── train.py         # Model training and selection
-│   ├── evaluate.py      # Metrics, plots, SHAP
-│   └── serve.py         # FastAPI REST API
+│   ├── preprocess.py
+│   ├── train.py
+│   └── predict.py
+│
 ├── models/
-│   ├── best_model.pkl   # Saved Random Forest
-│   ├── scaler.pkl       # Saved StandardScaler
-│   ├── random_forest.pkl
-│   ├── logistic_regression.pkl
-│   └── xgboost.pkl
-├── notebooks/
-│   ├── confusion_matrix.png
-│   ├── roc_curve.png
-│   └── shap_summary.png
-├── tests/
-│   └── test_pipeline.py
-├── app.py               # Streamlit UI
-├── config.yaml          # All parameters in one place
+│   ├── credit_model.pkl
+│   └── scaler.pkl
+│
+├── app.py
 ├── requirements.txt
-└── README.md
+├── README.md
+└── .gitignore
 ```
 
 ---
