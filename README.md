@@ -316,8 +316,8 @@ MIT License — see [LICENSE](LICENSE) for details.
 B.E. Computer Science and Engineering — Sri Sairam College of Engineering (VTU)
 Machine Learning Intern — CodeAlpha
 
-[GitHub](https://github.com/SujanByaRoo) · [LinkedIn](https://linkedin.com/in/your-profile)
+[GitHub](https://github.com/SujanByaRoo) 
 
 ---
 
-*Built as part of CodeAlpha ML Internship — July 2026*
+
