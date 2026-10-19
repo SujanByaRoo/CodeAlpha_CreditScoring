@@ -173,8 +173,6 @@ CodeAlpha_CreditScoring/
 
 ## Streamlit App
 
-> Screenshot placeholder — add your own after running the app
-
 The UI accepts customer details through dropdowns and number inputs, hits the FastAPI backend, and displays the credit decision with risk score and confidence.
 
 ---
